@@ -1,0 +1,22 @@
+# SECRETS — never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# CUDA build artifacts
+nonce-miner-gpu
+*.o
+*.obj
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
